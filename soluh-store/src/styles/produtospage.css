@@ -1,0 +1,15 @@
+.produtos-page {
+    padding: 20px;
+  }
+  
+  .produtos-page h1 {
+    color: #ff69b4;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }

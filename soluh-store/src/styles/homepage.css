@@ -1,0 +1,65 @@
+.home-page {
+    padding: 20px;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #e0f8e0, #ffe4f1); /* Degradê suave de verde e rosa */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    color: #008000;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+  }
+  
+  .hero-button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #d6418d;
+  }
+  
+  .destaques {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .destaques h2 {
+    color: #008000;
+    margin-bottom: 20px;
+  }
+  
+  .destaques-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .destaque-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
